@@ -16,10 +16,30 @@ async def on_ready():
     await bot.change_status(game=discord.Game(name="snake.exe"), idle=False)
 
 @bot.command()
-async def hss(*, stuff_for_snek_to_say):
+async def hss():
     """says stuff"""
-    await bot.say(stuff_for_snek_to_say)
+    await bot.say(':Hisssssssssss:')
+    
+@bot.command()
+async def alex():
+    """keem meme"""
+    await bot.say(':ALEX IS A STUPID NIGGER:')
 
+@bot.command()
+async def boop():
+    """boops"""
+    await bot.say('http://i.imgur.com/KGHL7Wr.jpg')
+    
+@bot.command()
+async def step():
+    """fuck off"""
+    await bot.say('http://2static.fjcdn.com/pictures/Blank_487b8c_5807026.jpg')
+    
+@bot.command()
+async def step2():
+    """fuck OFFF"""
+    await bot.say('http://2static.fjcdn.com/pictures/Blank_d95870_5807026.jpg')
+    
 @bot.command()
 async def pls():
     """try it"""
